@@ -1,4 +1,4 @@
-require("babel-register");
+require("@babel/register");
 
 exports.config = {
     //
@@ -130,7 +130,7 @@ exports.config = {
     mochaOpts: {
         ui: 'bdd',
         timeout: 60000,
-        compilers: [ "js:babel-register" ]
+        compilers: [ "js:@babel/register" ]
     },
     //
     // =====

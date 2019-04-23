@@ -20,7 +20,7 @@
     "@wdio/sync": "^5.7.13",
     "chai": "^4.2.0",
     "webdriverio": "^5.7.13",
-    "wdio-docker-service": "serbanghita/wdio-docker-service.git#WDIO5"
+    "wdio-docker-service": "^2.0.0"
   },
   "scripts": {
     "local": "wdio wdio.conf.js",

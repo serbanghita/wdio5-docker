@@ -1,4 +1,4 @@
-require('babel-register');
+require('@babel/register');
 
 const config = require('./wdio.conf.js').config;
 
